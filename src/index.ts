@@ -24,6 +24,8 @@ function lcmBigInt(a: bigint, b: bigint): bigint {
 
 app.get('/iibragimov2417_gmail_com', (req, res) => {
 const { x, y } = req.query;
+console.log('x',x);
+console.log('y',y);
 
   try {
     // Преобразуем входящие строки (в т.ч. экспоненциальную запись) в BigInt
